@@ -1,0 +1,7 @@
+{
+	"full_name"		: "Minimum UEAS Hadnover Algorithm (C)",
+	"name"			: "ussl-c",
+	"USSL"			: "C",
+	"lsrl"			: 2,
+	"enb_percentage_base" 	: 35
+}

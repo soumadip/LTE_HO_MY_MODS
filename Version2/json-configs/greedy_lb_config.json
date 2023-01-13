@@ -1,0 +1,7 @@
+{
+	"full_name"		: "Greedy Load Balancing Algorithm",
+	"name"			: "greedy",
+	"alpha" 		: 0.1,
+	"beta"			: 4
+}
+

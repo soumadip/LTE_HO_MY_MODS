@@ -1,0 +1,138 @@
+{
+	"full_name"		            : "Common Configurations",
+
+	"processed_data"	:
+	{
+		"rsrp_meas"		        : "paris-t1-randSel_rsrp_pickle_dump",
+		"rsrq_meas"		        : "paris-t1-randSel_rsrq_pickle_dump",
+		"enb_pos"		        : "paris-t1-randSel_enb_pos_pickle_dump",
+		"vehicle_data"		    : "paris-t1-randSel_vehicle_data_pickle_dump",
+		"ue_pos"		        : "paris-t1-randSel_ue_pos_pickle_dump",
+		"load_matrix_dict"	    : "paris-t1-randSel_load_matrix_pickle_dump",
+		"vehicle_matrix_dict"	: "paris-t1-randSel_vehicle_matrix_pickle_dump",
+		"enb_AoI_dict"		    : "paris-t1-randSel_enb_AoI_pickle_dump",
+		"overlapping_enb_AoI"	: "paris-t1-randSel_enb_overlap_pickle_dump"
+	},
+
+	"context"		        : "paris-t1-randSel",
+	"ho_conf"		        : "_ho_conf",
+	"lb_conf"		        : "_lb_conf",
+	"ue_start_times_prefix"	: "ue_start_times_",
+    "ue_start_times_set_no" : 1,
+	"ue_start_times_suffix"	: ".pickle_dump",
+
+	"common_configs"	:
+	{
+		"lambda"		        : -85,
+        "sst_th"                : -90,
+		"journey_length"	    : 108,
+		"duration"		        : 150,
+		"number_ue"		        : 250,
+		"ho_algo"		        : "none",
+		"lb_algo"		        : "jula",
+		"enb_percentage_base" 	: 35,
+		"load_check_interval"	: 1
+	},
+
+	"uara_lb_conf"	:
+	{
+		"full_name"		: "User Association and Resource Allocation Optimization Algorithm",
+		"name"			: "uara",
+		"beta"			: 20
+	},
+	"dlba_lb_conf"	:
+	{
+		"full_name"		: "Distributed Load Balancing Algorithm",
+		"name"			: "dlba",
+		"beta"			: 20
+	},
+	"jula_lb_conf"	:
+	{
+		"full_name"		: "Joint User Association and Load Balancing Algorithm",
+		"name"			: "jula",
+		"alpha" 		: 0.1,
+		"beta"			: 20,
+        "gamma"         : 0.2,
+        "eta"           : 0,
+		"USSL"			: "A",
+		"lsrl"			: 2,
+        "type"          : "a",
+        "expt"          : 1
+	},
+	"maxflow_lb_conf"	:
+	{
+		"full_name"		: "Network Flow Based Load Balancing Algorithm",
+		"name"			: "maxflow",
+		"alpha" 		: 0.1,
+		"beta"			: 4
+	},
+	"greedy_lb_conf"	:
+	{
+		"full_name"		: "Greedy Load Balancing Algorithm",
+		"name"			: "greedy",
+		"alpha" 		: 0.1,
+		"beta"			: 4
+	},
+	"none_lb_conf"		:
+	{
+		"full_name"		: "No LBA",
+		"name"			: "none",
+		"alpha"			: 0.0,
+		"beta"			: 4
+	},
+
+	"ussl-a_ho_conf"	:
+	{
+		"full_name"		: "Minimum UEAS Hadnover Algorithm (A)",
+		"name"			: "ussl-a",
+		"USSL"			: "A",
+		"lsrl"			: 2
+	},
+	"ussl-c_ho_conf"	:
+	{
+		"full_name"		: "Minimum UEAS Hadnover Algorithm (C)",
+		"name"			: "ussl-c",
+		"USSL"			: "C",
+		"lsrl"			: 2
+	},
+	"ubbho_ho_conf"	:
+	{
+		"full_name"		: "User Behaviour Based Hadnover Algorithm",
+		"name"			: "ubbho",
+		"hom"			: 1,
+        "inc"           : 1,
+        "dec"           : 0.5,
+        "pp_window"     : 4
+	},
+	"ombfra_ho_conf"	:
+	{
+		"full_name"		: "Orientation Matching Based Hadnover Algorithm",
+		"name"			: "ombfra",
+		"hom"			: 1,
+        "weight_rss"    : 0.25,
+        "weight_cl"     : 0.25,
+        "weight_om"     : 0.5
+	},
+	"a2a4_ho_conf"	:
+	{
+		"full_name"		: "A2 and A4 Events Based Hadnover Algorithm",
+		"name"			: "a2a4",
+        "serving_th"    : 15
+	},
+	"attach_ho_conf"		:
+	{
+		"full_name"		: "Just Attach UE Algorithm",
+		"name"			: "attach"
+	},
+	"a3_ho_conf"		:
+	{
+		"full_name"		: "A3 Event Based Hadnover Algorithm",
+		"name"			: "a3",
+		"hom"			: 1
+	},
+	"none_ho_conf"		:
+	{
+		"full_name"		: "No HO",
+		"name"			: "none"
+	}
+}
