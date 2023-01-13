@@ -1,0 +1,14 @@
+#bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a10.0_b4_p35_u100/ussl-a_maxflow_a10.0_b4_p35_u100. paris-t1-randSel/ussl-a_none_a0.0_b4_p35_u100/ussl-a_none_a0.0_b4_p35_u100.
+#bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a20.0_b4_p35_u100/ussl-a_maxflow_a20.0_b4_p35_u100. paris-t1-randSel/ussl-a_none_a0.0_b4_p35_u100/ussl-a_none_a0.0_b4_p35_u100.
+#bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a10.0_b10_p35_u250/ussl-a_maxflow_a10.0_b10_p35_u250. paris-t1-randSel/ussl-a_none_a0.0_b10_p35_u250/ussl-a_none_a0.0_b10_p35_u250.
+#bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a20.0_b10_p35_u250/ussl-a_maxflow_a20.0_b10_p35_u250. paris-t1-randSel/ussl-a_none_a0.0_b10_p35_u250/ussl-a_none_a0.0_b10_p35_u250.
+bash run_script.sh plot paris-t1-randSel/a2a4_maxflow_a10.0_b20_p35_u500/a2a4_maxflow_a10.0_b20_p35_u500. paris-t1-randSel/a2a4_none_a0.0_b20_p35_u500/a2a4_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/a2a4_maxflow_a20.0_b20_p35_u500/a2a4_maxflow_a20.0_b20_p35_u500. paris-t1-randSel/a2a4_none_a0.0_b20_p35_u500/a2a4_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/a3_maxflow_a10.0_b20_p35_u500/a3_maxflow_a10.0_b20_p35_u500. paris-t1-randSel/a3_none_a0.0_b20_p35_u500/a3_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/a3_maxflow_a20.0_b20_p35_u500/a3_maxflow_a20.0_b20_p35_u500. paris-t1-randSel/a3_none_a0.0_b20_p35_u500/a3_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ombfra_maxflow_a10.0_b20_p35_u500/ombfra_maxflow_a10.0_b20_p35_u500. paris-t1-randSel/ombfra_none_a0.0_b20_p35_u500/ombfra_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ombfra_maxflow_a20.0_b20_p35_u500/ombfra_maxflow_a20.0_b20_p35_u500. paris-t1-randSel/ombfra_none_a0.0_b20_p35_u500/ombfra_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ubbho_maxflow_a10.0_b20_p35_u500/ubbho_maxflow_a10.0_b20_p35_u500. paris-t1-randSel/ubbho_none_a0.0_b20_p35_u500/ubbho_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ubbho_maxflow_a20.0_b20_p35_u500/ubbho_maxflow_a20.0_b20_p35_u500. paris-t1-randSel/ubbho_none_a0.0_b20_p35_u500/ubbho_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a10.0_b20_p35_u500/ussl-a_maxflow_a10.0_b20_p35_u500. paris-t1-randSel/ussl-a_none_a0.0_b20_p35_u500/ussl-a_none_a0.0_b20_p35_u500.
+bash run_script.sh plot paris-t1-randSel/ussl-a_maxflow_a20.0_b20_p35_u500/ussl-a_maxflow_a20.0_b20_p35_u500. paris-t1-randSel/ussl-a_none_a0.0_b20_p35_u500/ussl-a_none_a0.0_b20_p35_u500.
